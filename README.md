@@ -1,4 +1,4 @@
-# ACM - Main Codebase
+# NAVIGO - Advance Backend system powered with multiple microservices and Event driven Architecture
 <img alt="Status" src="https://img.shields.io/badge/status-under--development-orange" />
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <!-- <img alt="Status" src="https://img.shields.io/badge/status-production-brightgreen" /> -->
@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-<img src="./apps/web/public/logo.png" alt="ACM Logo" width="200"/>
+<img src="./apps/web-/public/logo.png" alt="navigo Logo" width="200"/>
 
 
 **A Modern, Scalable System Architecture with the Edge compute power**
@@ -32,17 +32,17 @@
 
 
 <p align="center">
-    Official website of ACM MJCET — empowering students in computer science and technology through learning, collaboration, and innovation.
+    Official Backend System Architecture of navigo — empowering innovation.
     <br />
     <br />
     <a href="#getting-started"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://acmmjcet.com">View Website</a>
+    <a href="https://navigomjcet.com">View Website</a>
     ·
-    <a href="https://github.com/acmmjcet/main-website/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
+    <a href="https://github.com/navigomjcet/main-website/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
     ·
-    <a href="https://github.com/acmmjcet/main-website/blob/main/.github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
+    <a href="https://github.com/navigomjcet/main-website/blob/main/.github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
   </p>
 
 </div>
@@ -74,7 +74,7 @@
 
 ## 🌟 Overview
 
-ACM Main Codebase is a comprehensive enterprise grade monorepo contains multiple applications organized in a scalable architecture.
+navigo Main Codebase is a comprehensive enterprise grade monorepo contains multiple applications organized in a scalable architecture.
 
 ### Core Principles
 
@@ -89,11 +89,11 @@ ACM Main Codebase is a comprehensive enterprise grade monorepo contains multiple
 main-codebase/
 ├── apps/                    # Application packages
 │   ├── web/                 # Main web application
-│   ├── cf-server/           # Cloudflare backend worker
+│   ├── hono-server/           # Cloudflare backend worker
 │   ├── admin-web/           # Admin-portal for the entire infrastructure management and overlook
 ├── packages/                # Shared packages
 │   ├── api-endpoints/       # Api-endpoints shared across tools, apps and packages
-└── tools/                   # Build and development tools to ease ACM Event management or plan execution
+└── tools/                   # Build and development tools to ease navigo Event management or plan execution
 ```
 
 ##  Features
@@ -109,7 +109,7 @@ main-codebase/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/acmmjcet/main-codebase.git
+git clone https://github.com/navigomjcet/main-codebase.git
 cd main-codebase
 ```
 
@@ -240,7 +240,7 @@ Start from **dev** branch. When starting any work, always create your branch fro
 
 **Step 3: Production**  
 - Create a PR from `test` → `main`.  
-- Must be approved by **Tech Captain** and one reviewer.  
+- Must be approved by **Adnan** and one reviewer.  
 - Upon approval, code is deployed.
 
 ---
@@ -268,20 +268,15 @@ Use prefixes for consistent commits:
 All CI/CD checks (ESLint, build, and deployment validations) must pass before merging.
 
 ### 5. Conflict Resolution
-If merge conflicts occur, contact the **Tech Captain** immediately.
+If merge conflicts occur, contact the **Adnan** immediately.
 
 ### 6. PR Review Time
 All PRs should be reviewed within **5 days** of submission.
 
 ### 7. Emergency Procedure
-In case of urgent fixes, the Tech Captain may merge directly to production.
+In case of urgent fixes, the Adnan may merge directly to production.
 
 ---
-## 🏅 Top Contributers
-
-<a href="https://github.com/acmmjcet/main-website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=acmmjcet/main-website" alt="contrib.rocks image" />
-</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -289,44 +284,43 @@ In case of urgent fixes, the Tech Captain may merge directly to production.
 
 ## 🧾 License
 
-This project is licensed under **GPL-3.0** — [Learn More](https://github.com/acmmjcet/main-website/blob/main/LICENSE)
+This project is licensed under **GPL-3.0** 
 
 ---
 
 ## 📞 Contact
 
-📧 Email – acm@mjcollege.ac.in
-🌐 Website – [acmmjcet.com](https://acmmjcet.com)
+📧 Email – faiz@navigorides.com
+🌐 Website – [navigorides.com](https://navigorides.com)
 
 ---
 
 ## 🙏 Acknowledgments
 
-These open-source projects power ACM MJCET’s website:
+These open-source projects power navigo backend:
 
 - [Shadcn](https://ui.shadcn.com)  
-- [Supabase](https://supabase.io)  
 - [Next.js](https://nextjs.org)  
 - [Tailwind CSS](https://tailwindcss.com)
 
 <!--Markdown Links-->
 
-[contributors-shield]: https://img.shields.io/github/contributors/acmmjcet/main-website.svg?style=for-the-badge
-[contributors-url]: https://github.com/acmmjcet/main-website/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/acmmjcet/main-website.svg?style=for-the-badge
-[forks-url]: https://github.com/acmmjcet/main-website/network/members
-[stars-shield]: https://img.shields.io/github/stars/acmmjcet/main-website.svg?style=for-the-badge
-[stars-url]: https://github.com/acmmjcet/main-website/stargazers
-[issues-shield]: https://img.shields.io/github/issues/acmmjcet/main-website.svg?style=for-the-badge
-[issues-url]: https://github.com/acmmjcet/main-website/issues
-[license-shield]: https://img.shields.io/github/license/acmmjcet/main-website.svg?style=for-the-badge
-[license-url]: https://github.com/acmmjcet/main-website/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/navigomjcet/main-website.svg?style=for-the-badge
+[contributors-url]: https://github.com/navigomjcet/main-website/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/navigomjcet/main-website.svg?style=for-the-badge
+[forks-url]: https://github.com/navigomjcet/main-website/network/members
+[stars-shield]: https://img.shields.io/github/stars/navigomjcet/main-website.svg?style=for-the-badge
+[stars-url]: https://github.com/navigomjcet/main-website/stargazers
+[issues-shield]: https://img.shields.io/github/issues/navigomjcet/main-website.svg?style=for-the-badge
+[issues-url]: https://github.com/navigomjcet/main-website/issues
+[license-shield]: https://img.shields.io/github/license/navigomjcet/main-website.svg?style=for-the-badge
+[license-url]: https://github.com/navigomjcet/main-website/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/acm-mjcet/
+[linkedin-url]: https://www.linkedin.com/company/navigo-mjcet/
 
 
 
 <div align="center">
-Built with ❤️ by the ACM Tech Team
+Built with ❤️ by Adnan
 </div>
         
