@@ -89,8 +89,9 @@ navigo Main Codebase is a comprehensive enterprise grade monorepo contains multi
 main-codebase/
 ├── apps/                    # Application packages
 │   ├── web/                 # Main web application
-│   ├── hono-server/           # Cloudflare backend worker
-│   ├── admin-web/           # Admin-portal for the entire infrastructure management and overlook
+│   ├── hono-server/         # Cloudflare backend worker
+│   ├── kafka-producer/      # Admin-portal for the entire infrastructure management and overlook
+│   ├── kafka-consumer/      # Admin-portal for the entire infrastructure management and overlook
 ├── packages/                # Shared packages
 │   ├── api-endpoints/       # Api-endpoints shared across tools, apps and packages
 └── tools/                   # Build and development tools to ease navigo Event management or plan execution
@@ -285,13 +286,6 @@ In case of urgent fixes, the Adnan may merge directly to production.
 ## 🧾 License
 
 This project is licensed under **GPL-3.0** 
-
----
-
-## 📞 Contact
-
-📧 Email – faiz@navigorides.com
-🌐 Website – [navigorides.com](https://navigorides.com)
 
 ---
 
