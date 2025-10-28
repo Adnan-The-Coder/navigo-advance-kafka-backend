@@ -1,4 +1,4 @@
-name: Automated Deployment of hono-server to Cloudflare Workers
+name: Automated deployment of hono-server to Cloudflare Workers
 
 on:
   push:
