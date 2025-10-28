@@ -1,0 +1,31 @@
+{
+  "name": "hono-server",
+  "sourceRoot": "apps/hono-server/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "dependsOn": [
+        {
+          "target": "build",
+          "projects": ["@navigo/api-endpoints"]
+        }
+      ],
+      "options": {
+        "command": "pnpm --filter hono-server dev"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm --filter hono-server build"
+      }
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm --filter hono-server lint"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"name": "hono-server",
+	"type": "module",
+	"scripts": {
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify",
+		"cf-typegen": "wrangler types --env-interface CloudflareBindings",
+		"drizzle:up": "drizzle-kit up",
+		"generate": "drizzle-kit generate",
+		"amend": "drizzle-kit drop && drizzle-kit generate",
+		"studio": "drizzle-kit studio",
+		"migrate": "node scripts/execute-d1.mjs"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.0",
+		"drizzle-kit": "^0.31.4",
+		"drizzle-orm": "^0.44.2",
+		"hono": "^4.9.2",
+		"uuid": "^11.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.13",
+		"wrangler": "^4.32.0"
+	}
+}
