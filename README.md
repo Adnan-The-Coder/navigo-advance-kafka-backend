@@ -29,6 +29,8 @@
 [![GCP OAuth](https://img.shields.io/badge/GCP%20OAuth-1.0-blue?style=for-the-badge&logo=googlecloud)](https://cloud.google.com/docs/authentication)
 [![ESLint](https://img.shields.io/badge/ESLint-8.35.0-blue?style=for-the-badge&logo=eslint)](https://eslint.org/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-enabled-blue?style=for-the-badge&logo=github-actions)](https://github.com/features/actions)
+[![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-active-orange?style=for-the-badge&logo=apachekafka)](https://kafka.apache.org/)
+
 
 
 <p align="center">
